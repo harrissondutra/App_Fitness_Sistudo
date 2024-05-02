@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Fitness Sistudo</string>
+    <string name="txt_main_ico">Fitness Sistudo</string>
+    <string name="developer">Desenvolvido por Harrisson Dutra</string>
 </resources>
