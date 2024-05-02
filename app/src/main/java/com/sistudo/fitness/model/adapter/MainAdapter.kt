@@ -3,6 +3,7 @@ package com.sistudo.fitness.model.adapter
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.sistudo.fitness.R
 import com.sistudo.fitness.databinding.MainItemBinding
@@ -24,6 +25,10 @@ class MainAdapter(
         val module = listModules[position]
         holder.name.text = module.name
         holder.image.setImageResource(module.image ?: R.drawable.ico_default)
+
+        holder.itemView.setOnClickListener {
+            Toast.makeText(context, "Clicou em ${holder.name.text}", Toast.LENGTH_SHORT).show()
+        }
     }
 
     class MainViewHolder(binding: MainItemBinding) : RecyclerView.ViewHolder(binding.root) {
