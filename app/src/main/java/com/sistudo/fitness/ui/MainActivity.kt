@@ -1,8 +1,9 @@
-package com.sistudo.fitness
+package com.sistudo.fitness.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
+import com.sistudo.fitness.R
 import com.sistudo.fitness.databinding.ActivityMainBinding
 import com.sistudo.fitness.model.Modules
 import com.sistudo.fitness.model.adapter.MainAdapter

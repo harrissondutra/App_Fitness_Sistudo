@@ -1,13 +1,9 @@
-package com.sistudo.fitness
+package com.sistudo.fitness.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.sistudo.fitness.databinding.ActivityMainBinding
 import com.sistudo.fitness.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
